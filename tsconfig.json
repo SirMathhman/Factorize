@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "types": ["lua-types/jit"],
+    "strict": true
+  },
+  "tstl": {
+    "luaTarget": "JIT",
+    "luaBundle": "init.lua",
+    "luaBundleEntry": "./src/index.ts",
+  }
+}
